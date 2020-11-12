@@ -1,6 +1,6 @@
 {
-  "name": "marimoro-web",
-  "short_name": "marimoro-web",
+  "name": "test-web",
+  "short_name": "test-web",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",

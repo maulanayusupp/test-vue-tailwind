@@ -2,7 +2,7 @@
 <div class="page page-auth">
 	<div class="card auth-box">
 		<div class="card-body">
-			<h3 class="card-title text-center mb-4">Log in to MariMoro</h3>
+			<h3 class="card-title text-center mb-4">Log in to Test</h3>
 			<div class="card-text">
 				<form @submit.prevent="login()">
 					<div class="form-group">

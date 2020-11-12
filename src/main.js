@@ -1,6 +1,6 @@
 import Vue from 'vue';
-import io from 'socket.io-client';
-import VueSocketio from 'vue-socket.io-extended';
+// import io from 'socket.io-client';
+// import VueSocketio from 'vue-socket.io-extended';
 import Notifications from 'vue-notification';
 import vueXlsxTable from 'vue-xlsx-table';
 import VTooltip from 'v-tooltip';
@@ -34,6 +34,9 @@ import 'quill/dist/quill.core.css';
 import 'quill/dist/quill.snow.css';
 import 'quill/dist/quill.bubble.css';
 
+// tailwind
+import './assets/styles/index.css';
+
 // number input international
 import VuePhoneNumberInput from 'vue-phone-number-input';
 import 'vue-phone-number-input/dist/vue-phone-number-input.css';
@@ -51,12 +54,12 @@ import './registerServiceWorker';
 
 Vue.config.productionTip = false;
 
-const SOCKET_URL = process.env.VUE_APP_SOCKET_URL || 'http://localhost:3000';
+// const SOCKET_URL = process.env.VUE_APP_SOCKET_URL || 'http://localhost:3000';
 
 // Socket
-const socket = io(SOCKET_URL, {
-	transports: ['websocket'],
-});
+// const socket = io(SOCKET_URL, {
+// 	transports: ['websocket'],
+// });
 
 // Material Design Components
 Vue.use(MdField);
@@ -79,7 +82,7 @@ Vue.use(MdRipple);
 // Vue.use(MdSubheader);
 // Vue.use(MdProgress);
 
-Vue.use(VueSocketio, socket, { store });
+// Vue.use(VueSocketio, socket, { store });
 Vue.use(Notifications);
 Vue.use(VTooltip);
 Vue.use(VueQuillEditor);

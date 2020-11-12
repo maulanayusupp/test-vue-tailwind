@@ -1,7 +1,7 @@
 <template>
 	<nav class="navbar navbar-expand-lg navbar-light" v-if="activeRouteName !== 'Error404'">
 		<div class="container">
-			<router-link to="/" class="navbar-brand">MariMoro</router-link>
+			<router-link to="/" class="navbar-brand">Test</router-link>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>

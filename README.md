@@ -1,4 +1,4 @@
-# marimoro-web
+# test-web
 
 ## Project setup
 ```

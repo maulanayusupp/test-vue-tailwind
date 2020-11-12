@@ -16,7 +16,7 @@ const FETCH_USER_END = 'FETCH_USER_END';
 const NAVIGATE = 'NAVIGATE';
 const SET_LOCALE = 'SET_LOCALE';
 
-const sessionCookieName = 'marimoro_app';
+const sessionCookieName = 'test_app';
 
 const state = function () {
 	return {

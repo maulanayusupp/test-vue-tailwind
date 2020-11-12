@@ -38,7 +38,7 @@ export default {
 	},
 	mounted() {},
 	created() {
-		if (this.isTokenExist) this.fetchUser();
+		// if (this.isTokenExist) this.fetchUser();
 	},
 	destroyed() {},
 	beforeDestroy() {},
